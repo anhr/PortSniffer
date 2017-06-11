@@ -1,0 +1,572 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{c71db0fc-f35c-42a1-9c4e-b5dd45eedb1e}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{36748408-828d-4fa5-9ba9-4d505626c726}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8ae02e70-b42f-4e61-8565-66301dd7cb82}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;manifest</Extensions>
+    </Filter>
+    <Filter Include="HTML Help Files">
+      <UniqueIdentifier>{183bec59-4b20-4dac-904b-f0b2945d9104}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTML Help Topics">
+      <UniqueIdentifier>{f0f82b06-4390-4a84-bad3-303ac2cdcfcf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\trunk\Common\Common\aboutdlg.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\trunk\Common\Common\Permissions\AclInfoBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\trunk\Common\Common\AfxMessageBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\trunk\Common\Common\ContextualHelp\ContextualHelp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgPortScanner.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\trunk\Common\Common\EmailMe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\trunk\Common\Common\Exception.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\trunk\Common\Common\MFC\File.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\trunk\Common\Common\FileManagement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\trunk\Common\Common\GetLastErrorString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mainfrm.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\trunk\Common\Common\MFC\MyAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\trunk\Common\Common\MyCriticalSection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\trunk\Common\Common\MyDumpMemoryLeaks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\trunk\Common\Common\MyEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\trunk\Common\Common\MFC\MyFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyModule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\trunk\Common\Common\MyStatusBarCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\trunk\Common\Common\MyToolBarCtrl.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\trunk\Common\Common\OSVersion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PaneContainerBanner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PaneContainerOutput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PortSniffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PortSnifferView.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\trunk\Common\Common\Regexp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\trunk\Common\Common\RegKeyBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RegKeyPortScanner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ResponseFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketAccept.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\trunk\Common\Common\SocketBlocking\SocketBlocking.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketListeningPortScanner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\trunk\Common\Common\TransparentCtrls\StaticEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\trunk\Common\Common\Thread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolBarCtrlBanner.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolBarCtrlListen.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\trunk\Common\Common\util_RF.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\trunk\Common\Common\Version.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\trunk\Common\Common\WMI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\trunk\Common\Common\WSAInit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\trunk\Common\Common\Aboutdlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\trunk\Common\Common\Permissions\AclInfoBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\trunk\Common\Common\AfxMessageBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BannerView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\trunk\Common\Common\ContextualHelp\ContextualHelp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgPortScanner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditBannerURL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\trunk\Common\Common\EmailMe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\trunk\Common\Common\Exception.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\trunk\Common\Common\MFC\File.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\trunk\Common\Common\FileManagement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\trunk\Common\Common\GetLastErrorString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\trunk\Common\Common\MFC\MyAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\trunk\Common\Common\MyCriticalSection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\trunk\Common\Common\MyDumpMemoryLeaks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Common\myedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\trunk\Common\Common\MyEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\trunk\Common\Common\MFC\MyFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\trunk\Common\Common\MyStatusBarCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\trunk\Common\Common\MyToolBarCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\trunk\Common\Common\OSVersion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PageOptionsHTML.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PaneContainerBanner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PaneContainerOutput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PortSnifferView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="propertyoptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\trunk\Common\Common\Regexp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\trunk\Common\Common\RegKeyBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RegKeyPortScanner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Common\resourceCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Common\ContextualHelp\resourceContextualHelp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ResponseFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketAccept.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\trunk\Common\Common\SocketBlocking\SocketBlocking.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketListeningPortScanner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SplitterPortSniffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\trunk\Common\Common\TransparentCtrls\StaticEx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\trunk\Common\Common\Thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolBarCtrlBanner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolBarCtrlListen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\trunk\Common\Common\util_RF.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\trunk\Common\Common\Version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\trunk\Common\Common\WMI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\trunk\Common\Common\WSAInit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\..\trunk\Common\Common\MFC\AFXRES.RC">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="..\..\..\trunk\Common\Common\Common.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="..\..\..\trunk\Common\Common\ContextualHelp\ContextualHelp.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="PortSniffer.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="hlp\Images\Bullet.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\PortSniffer.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\printpre.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="hlp\PortScanner.hhc">
+      <Filter>HTML Help Files</Filter>
+    </None>
+    <None Include="hlp\PortScanner.hhk">
+      <Filter>HTML Help Files</Filter>
+    </None>
+    <None Include="hlp\afx_hidd_color.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\afx_hidd_fileopen.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\afx_hidd_filesave.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\afx_hidd_find.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\afx_hidd_font.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\afx_hidd_newtypedlg.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\afx_hidd_options_general.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\afx_hidd_print.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\afx_hidd_printdlg.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\afx_hidd_printsetup.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\afx_hidd_replace.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\afx_hidp_default.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\afx_hidw_dockbar_top.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\afx_hidw_listen_toolbar.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\afx_hidw_preview_bar.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\afx_hidw_status_bar.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\afx_hidw_toolbar.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_app_about.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_app_exit.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_context_help.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_edit_clear.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_edit_clear_all.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_edit_copy.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_edit_cut.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_edit_find.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_edit_paste.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_edit_redo.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_edit_repeat.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_edit_replace.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_edit_undo.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_file_close.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_file_mru_file1.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_file_new.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_file_open.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_file_page_setup.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_file_print.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_file_print_preview.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_file_print_setup.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_file_save.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_file_save_as.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_file_send_mail.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_help_index.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_help_using.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_ht_caption.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_ht_nowhere.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_next_pane.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_prev_pane.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_sc_close.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_sc_maximize.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_sc_minimize.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_sc_move.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_sc_nextwindow.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_sc_prevwindow.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_sc_restore.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_sc_size.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_sc_tasklist.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_tools_listen.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_view_ruler.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_view_status_bar.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_view_toolbar.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_window_all.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_window_arrange.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_window_cascade.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_window_new.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_window_split.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_window_tile.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_window_tile_horz.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hid_window_tile_vert.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\hidr_doc1type.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\main_index.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\menu_edit.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\menu_file.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\menu_help.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\menu_tools.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\menu_view.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\menu_window.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+    <None Include="hlp\scrollbars.htm">
+      <Filter>HTML Help Topics</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="hlp\PortScanner.hhp">
+      <Filter>HTML Help Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

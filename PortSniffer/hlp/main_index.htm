@@ -1,0 +1,91 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+	<HEAD>
+		<TITLE>(Port Sniffer Help Index)</TITLE>
+		<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+	</HEAD>
+	<BODY>
+		<P><A NAME="main_index"></A><B>Port Sniffer&nbsp;Help Index</B></P>
+		<P>My utility can be useful for web developers and other programmers who are used 
+			sockets in his programs. You can use my utility for spying on socket's traffik. 
+			For example you can see content of the data exchange between your web browser 
+			and web server or your e-mail client and SMTP server.</P>
+		<P style="Z-INDEX: 0"><STRONG>How it works?</STRONG></P>
+		<P style="Z-INDEX: 0">My utility is a bridge between your client and server. Your 
+			client connects to my utility instead of the server. My utility connects to the 
+			server instead your client. Port Sniffer listens an incoming connection for 
+			selected port on your local machine. After accepting of connection, Port 
+			Scanner tries to connect to the selected port of the&nbsp;server and relays all 
+			data from accepted connection to the&nbsp;server. Port Sniffer then waits a 
+			reply from&nbsp;the server and relays it to the incoming connection. You can 
+			see all relayed data on the main window.</P>
+		<P style="Z-INDEX: 0"><STRONG>How to use the Port Sniffer?</STRONG></P>
+		<UL>
+			<LI>
+				<DIV style="Z-INDEX: 0">
+					Please type a port number, URL of the&nbsp;server and press the Listen button. 
+					Now my utility listens for an incoming connection. <A HREF="http://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xml#Jon_Postel"
+						target="_blank">Service Name and Transport Protocol Port Number Registry</A>.
+				</DIV>
+			<LI>
+				<DIV style="Z-INDEX: 0">
+					Prepare your client (a web browser, e-mail client or something like that). You 
+					need to replace in your client the URL of the&nbsp;server to URL of the 
+					computer, where Port Sniffer is listens for connection (usually to localhost).</DIV>
+				<UL>
+					<LI>
+						<DIV style="Z-INDEX: 0">For example you can see a data exchange between your web 
+							browser and web server. For it:</DIV>
+						<UL>
+							<LI>
+								<DIV style="Z-INDEX: 0">Type 80 in the Port: field, "bonalink.com" in the URL: 
+									field and press the Listen button. Port Sniffer listens for an incoming 
+									connection.</DIV>
+							<LI>
+								<DIV style="Z-INDEX: 0">Open a web browser and navigate to <A href="http://localhost">
+										http://localhost</A> .</DIV>
+							</LI>
+						</UL>
+					<LI>
+						<DIV style="Z-INDEX: 0">In another example you can see a process of sending an 
+							e-mail to the SMTP server.</DIV>
+						<UL>
+							<LI>
+								<DIV style="Z-INDEX: 0">Type&nbsp;25 in the Port: field, "smtp.mail.ru" in the 
+									URL: field and press the Listen button. Port Sniffer listens for sending an 
+									e-mail.</DIV>
+							<LI>
+								<DIV style="Z-INDEX: 0">Open an e-mail client, for example Outlook Express.</DIV>
+							<LI>
+								<DIV style="Z-INDEX: 0">Go to Tools / Accounts... menu item. The Internet 
+									Accounts dialog opens.</DIV>
+							<LI>
+								<DIV style="Z-INDEX: 0">Go to Mail tab and open the properties of your e-mail 
+									account. The Properties of your e-mail account dialog opens.</DIV>
+							<LI>
+								<DIV style="Z-INDEX: 0">Go to Servers tab and type "localhost" in the Outgoing 
+									mail (SMPT): field.</DIV>
+							<LI>
+								<DIV style="Z-INDEX: 0">Press OK and close all dialogs.</DIV>
+							<LI>
+								<DIV style="Z-INDEX: 0">Try to send an e-mail. Now you can see all data exchange 
+									between&nbsp;your e-mail client and SMTP server in the main window of the Port 
+									Scanner.</DIV>
+							</LI>
+						</UL>
+					</LI>
+				</UL>
+			</LI>
+		</UL>
+		<P>
+			<DIV style="Z-INDEX: 0">
+				<P><B>Commands</B></P>
+				<P><A href="menu_file.htm">File menu</A></P>
+			</DIV>
+		<P></P>
+		<P><A HREF="menu_edit.htm">Edit menu</A></P>
+		<P><A HREF="menu_view.htm">View menu</A></P>
+		<P><A HREF="menu_tools.htm">Tools menu</A></P>
+		<P><A HREF="menu_help.htm">Help menu</A></P>
+	</BODY>
+</HTML>

@@ -1,0 +1,76 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+	<HEAD>
+		<TITLE>(HTML page of the Port Sniffer Options dialog box)</TITLE>
+		<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+	</HEAD>
+	<BODY>
+		<P><B>HTML page of the Port Sniffer Options dialog box</B></P>
+		<P style="Z-INDEX: 0">Apply options below for <A HREF="http://www.w3.org/Protocols/rfc2616/rfc2616.html" target="_blank">
+				HTML protocol</A> only.</P>
+		<P>The following options are allowed:</P>
+		<P><B>Replace the Host header</B></P>
+		<BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir="ltr">
+			<P style="Z-INDEX: 0">
+				Replace the "Host" header field from the client's request to the server's URL. 
+				See the <A HREF="afx_hidw_listen_toolbar.htm">Listen Toolbar</A> for details.</P>
+			<P style="Z-INDEX: 0">
+				Has effect for some web servers only.</P>
+			<UL>
+				<LI>
+					<DIV style="Z-INDEX: 0">Example.</DIV>
+				</LI>
+			</UL>
+			<P style="Z-INDEX: 0">Here you want to connect to bonalink.com web server by the 
+				Port Sniffer from the localhost machine. Usually a web browser sends a request 
+				to web server, are similar to that:</P>
+			<P style="Z-INDEX: 0"><EM> GET / HTTP/1.1<br>
+					Accept: image/gif, image/jpeg, image/pjpeg, image/pjpeg, 
+					application/x-shockwave-flash, application/x-ms-application, 
+					application/x-ms-xbap, application/vnd.ms-xpsdocument, application/xaml+xml, 
+					application/msword, */*
+					<br>
+					Accept-Language: en-US,fr;q=0.5
+					<br>
+					User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; 
+					.NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 
+					3.5.30729; .NET4.0C)
+					<br>
+					Accept-Encoding: gzip, deflate
+					<br>
+					Host: localhost
+					<br>
+					Connection: Keep-Alive </EM>
+			</P>
+			<P style="Z-INDEX: 0">
+				Line</P>
+			<P style="Z-INDEX: 0"><EM>Host: localhost </EM>
+			</P>
+			<P style="Z-INDEX: 0">is incorrect. The correct line is similar to that:</P>
+			<P style="Z-INDEX: 0"><EM style="Z-INDEX: 0">Host:&nbsp;bonalink.com&nbsp; </EM>
+			</P>
+			<P style="Z-INDEX: 0">It happening because you navigate to localhost instead real 
+				webserver. My utility can replace this line if you mark the <B>Replace the Host 
+					header </B>check box.</P>
+		</BLOCKQUOTE>
+		<P><B>Save the server's response to a file</B></P>
+		<BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir="ltr">
+			<P style="Z-INDEX: 0">Some web server's responses, such as images is binary and 
+				not readable. You can save server's responses to the file in appropiate format 
+				and open by associated application. Mark the <B style="Z-INDEX: 0"><B>Save the 
+						server's response to a file</B> </B>check box for it.</P>
+		</BLOCKQUOTE>
+		<P style="Z-INDEX: 0"><STRONG>Folder for saved files</STRONG></P>
+		<BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir="ltr">
+			<P style="Z-INDEX: 0">Specify the path to the folder, where you want to save the 
+				web server's response files.</P>
+		</BLOCKQUOTE>
+		<P style="Z-INDEX: 0; MARGIN-RIGHT: 0px" dir="ltr"><STRONG>Browse...</STRONG></P>
+		<BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir="ltr">
+			<P style="Z-INDEX: 0">Opens the folder dialog, where you can choose a folder to 
+				save server's responses.</P>
+		</BLOCKQUOTE>
+		<P style="Z-INDEX: 0"><STRONG></STRONG>&nbsp;</P>
+		<P style="Z-INDEX: 0"><STRONG></STRONG>&nbsp;</P>
+	</BODY>
+</HTML>
